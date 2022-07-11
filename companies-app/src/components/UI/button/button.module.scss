@@ -1,0 +1,16 @@
+@import '../../../style/variables.scss';
+
+.myBtn {
+    padding: 5px 15px;
+    color: $dark;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid $border-color;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    &:hover {
+        transition: 0.2s ease-in;
+        background: $border-color;
+        color: #fff;
+    }
+}

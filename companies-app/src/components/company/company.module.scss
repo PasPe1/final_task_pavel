@@ -1,0 +1,18 @@
+@import '../../style/variables.scss';
+
+.company_wrapper {
+    display: grid;
+     grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 18.2% 10%;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid $border-color;
+    margin-top: 15px;
+    background-color: #fff;
+    & h2, p {
+        margin: 0px;
+    }
+    & .company_name {
+        display: flex;
+        flex-direction: row;
+    }
+}

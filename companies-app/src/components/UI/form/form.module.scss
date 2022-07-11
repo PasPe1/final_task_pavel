@@ -1,0 +1,28 @@
+
+
+.form_active {
+    visibility: visible;
+    width: 20%;
+    opacity: 1;
+    transition: opacity 0.3s, visibility 0.3s;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    & form {
+        width: 100% !important;
+    }
+}
+.userForm{
+    position: absolute;
+        opacity: 1;
+        position: absolute;
+        z-index: 3;
+}
+.form {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    position: absolute;
+    z-index: 2;
+}

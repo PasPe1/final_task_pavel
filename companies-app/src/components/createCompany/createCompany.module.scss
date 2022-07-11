@@ -1,0 +1,8 @@
+.createCompany_wrapper {
+    display: flex;
+    align-items: center;
+    & form {
+        border-radius: 10%;
+        margin: 20px auto;
+    }
+}

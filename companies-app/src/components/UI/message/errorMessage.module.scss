@@ -1,0 +1,8 @@
+@import '../../../style/variables.scss';
+
+.error_message {
+    color: $border-color;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}

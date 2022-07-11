@@ -1,0 +1,18 @@
+@import '../../../style/variables.scss';
+
+.user_wrapper {
+    display: grid;
+     grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid $border-color;
+    margin-top: 15px;
+    background-color: #fff;
+    & h2, p {
+        margin: 0px;
+    }
+    & .user_name {
+        display: flex;
+        flex-direction: row;
+    }
+}

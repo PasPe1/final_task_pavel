@@ -1,0 +1,19 @@
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .pagination_item_active {
+        background-color: #A267AC;
+    }
+}
+.pagination_button {
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+    & p {
+        margin-left: 10px;
+    }
+}

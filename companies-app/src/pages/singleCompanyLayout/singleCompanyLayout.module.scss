@@ -1,0 +1,30 @@
+@import '../../style/variables.scss';
+
+.single_company {
+    width: 100%;
+    height: 91.5vh;
+    background-color: $main-color;
+    padding-top: 20px;
+    & h2 {
+        color: #41444B;
+    }
+    &_name {
+        background-color: $form-color;
+    }
+    &_about {
+        text-align: left;
+        margin: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & form {
+            background-color: $border-color;
+            border-radius: 10%;
+            width: 30%;
+        }
+    }
+}
+.error_message {
+    text-align: center !important;
+}

@@ -1,0 +1,64 @@
+@import '../../style/variables.scss';
+
+.user_profile_wrapper {
+    background-color: $main-color;
+    width: 100%;
+    height: 88.9vh;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    & .overf {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: black;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+    }
+    & img {
+        margin-bottom: 20px;
+        border-radius: 100%;
+        width: 500px;
+        height: 500px;
+    }
+    & form {
+        background-color: $form-color;
+        margin: 0;
+        border-radius: 10%;
+        text-align: left;
+    }
+}
+
+.user_profile_information {
+    margin-top: 30px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: $border-color;
+    border-radius: 15%;
+    & h3 {
+        color: $main-color;
+    }
+}
+.form_editor {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & button {
+        width: 25%;
+        margin-top: 20px;
+    }
+}

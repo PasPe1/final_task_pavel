@@ -1,0 +1,52 @@
+@import '../../style/variables.scss';
+
+.companies_wrapper {
+    background-color: $main-color;
+    min-height: 93.7vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0 30px;
+    & ul {
+        list-style-type: none;
+        margin: 0px;
+    }
+}
+
+.companies_information {
+    padding-left: 40px;
+    display: grid;
+     grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 17.2% 10%;
+    align-items: center;
+    & p {
+        margin: 0;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination_button {
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    & p {
+        margin-left: 10px;
+    }
+}
+.error_internet {
+    position: absolute;
+    top: 5px;
+}
+
+.no_elements {
+    margin-top: 20px;
+    color: $border-color;
+    font-weight: bold;
+    font-size: large;
+}
